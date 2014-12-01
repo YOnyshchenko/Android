@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/container"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context=".MainActivity" tools:ignore="MergeRootFrame"
+    android:background="@color/background_color">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="88dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView"
+        android:layout_gravity="bottom|center" />
+
+    <EditText
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_gravity="center_horizontal|top"
+        android:hint="Введите имя кота  " />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/say_hello"
+        android:id="@+id/buttonHello"
+        android:onClick="onClick"
+        android:layout_gravity="right|center_vertical" />
+
+    <ImageButton
+        android:layout_width="117dp"
+        android:layout_height="97dp"
+        android:id="@+id/imageButton"
+        android:layout_gravity="left|center_vertical"
+        android:src="@drawable/button_icon"
+        android:onClick="onClick" />
+</FrameLayout>
