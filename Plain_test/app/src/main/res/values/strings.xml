@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Plain_test</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Red">Красный</string>
+    <string name="Yellow">Желтый</string>
+    <string name="Green">Зеленый</string>
+</resources>

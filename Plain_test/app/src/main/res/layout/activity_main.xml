@@ -1,0 +1,32 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/myLayout"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context=".MainActivity" tools:ignore="MergeRootFrame"
+    android:background="@color/background_color_Red">
+
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/Red"
+    android:id="@+id/buttonRed"
+    android:layout_gravity="left|top"
+    android:onClick="onClickRed" />
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/Yellow"
+    android:id="@+id/buttonYellow"
+    android:layout_gravity="left|center_vertical"
+    android:onClick="onClickYellow"/>
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/Green"
+    android:id="@+id/buttonGreen"
+    android:layout_gravity="left|bottom"
+    android:onClick="onClickGreen"/>
+
+</FrameLayout>
